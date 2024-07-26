@@ -4,5 +4,4 @@ sqlalchemy
 python-dotenv
 psycopg2-binary
 streamlit
-july
 matplotlib~=3.9.1

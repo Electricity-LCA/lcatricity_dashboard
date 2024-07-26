@@ -1,15 +1,11 @@
 import logging
 import os
-from datetime import datetime
 
 import httpx
-import july
 import pandas as pd
 import sqlalchemy
 import streamlit as st
 from dotenv import load_dotenv
-from july.utils import date_range
-from matplotlib import pyplot as plt
 
 from lcatricity_dashboard.get_common_data import load_common_data_from_db
 
